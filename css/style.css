@@ -92,10 +92,13 @@ nav li:hover{
     flex-direction: column;
     justify-items: center; */
     width: 280px;/*Porque el contenedor tiene 300 pixeles y tenemos un padding de 10*10 px*/
-    height: 150px; 
+    /* height: 150px;  */
     background: rgb(121, 195, 215);
     margin: auto;
+    padding: 10.5px;
     margin-bottom: 5px;
+    color:rgb(72, 67, 67);
+    transition: all .2s; 
   
 }
 
@@ -117,3 +120,22 @@ text-align: justify;
     flex-grow: 1;
     padding: 10px;
 }
+
+/* ANIMACIÓN */
+.articuloRelacionado:hover{
+    transform: scale(1.04);
+    /* SOMBRA */
+    box-shadow: 0px 0px 5px 0px #777;
+
+}
+
+#footer{
+    background:#3b3b3b ;
+    padding:20px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: ;
+    justify-content:space-between ;
+}
+
